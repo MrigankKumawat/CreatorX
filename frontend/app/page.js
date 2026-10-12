@@ -13,6 +13,7 @@ export default function Home() {
           <div className="cta-row">
             <Link href="/register?role=brand" className="btn">I'm a brand</Link>
             <Link href="/register?role=creator" className="btn btn-ghost">I'm a creator</Link>
+            <Link href="/demo" className="btn btn-ghost">Explore offline demo</Link>
           </div>
         </div>
         <MatchAnatomy />

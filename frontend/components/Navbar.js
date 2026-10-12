@@ -12,6 +12,7 @@ export default function Navbar() {
       <Link href="/" className="brand-mark">CreatorX</Link>
       <nav aria-label="Main">
         <Link href="/creators">Find creators</Link>
+        <Link href="/demo">Offline demo</Link>
         {user && <Link href="/dashboard">Dashboard</Link>}
         {!loading && !user && (
           <>
